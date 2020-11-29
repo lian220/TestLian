@@ -3,6 +3,7 @@ HELP.md
 build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
+!**/src/main/java/com/example/demo/config
 !**/src/test/**/build/
 
 ### STS ###
@@ -35,3 +36,10 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### config ###
+!*.properties
+
+!ToLuLocalConfig.java
+ToLuLocalConfig.java
+application-local.properties
